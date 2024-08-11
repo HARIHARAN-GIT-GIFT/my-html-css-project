@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+    font-family: "Grey Qo", cursive;
+}
+.CONTAINER{
+    width: 360px;
+    height: 550px;
+    background-color: rgb(152, 221, 253);
+    border-radius: 10px;
+    border-style:groove;
+}
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+H1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 26px;
+
+}
+form{
+    width: 300px; 
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+label{
+    display: block; 
+    margin-top: 15px;
+    font-size: 18px;
+
+}
+input[type="text"]{
+    width: 100%;
+    padding: 4px;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius:5px
+}
+input[type="email"]{
+    width: 100%;
+    padding: 4px;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius:5px
+}
+ input[type="select"]+label{ 
+    display: inline;
+    font-size: 16px;
+}
+select{
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: rgb(237, 211, 211);
+    cursor: pointer;
+    
+}
+button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(243, 247, 244);
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(21, 105, 42);
+    color: aliceblue;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+}
